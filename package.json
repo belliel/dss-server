@@ -12,6 +12,7 @@
     "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\""
   },
   "devDependencies": {
+    "@types/express-validator": "^3.0.0",
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.12",
     "@types/node": "^15.12.5",
@@ -21,7 +22,6 @@
     "nodemon": "^2.0.9"
   },
   "dependencies": {
-    "@types/express-validator": "^3.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-validator": "^6.12.0",
